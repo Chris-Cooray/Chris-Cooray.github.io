@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body style="background-color: rgb(44, 62, 80)">
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>CMS</h1>
+					<p>(Content Management System)</p>
+					<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/673422/images/3609440/wordpress_joomla_magento_drupal.png" style= "border: none">
+				</section>
+				<section>
+						<section>
+							<h2>Qu'est ce qu'un CMS ?</h2>
+						</section>
+						<section class="definition">
+							<h2>Définition</h2>
+							<div class="content"><p>Un Content Management System (en français: Système de Gestion de Contenu), C'est un outil qui permet d'administrer un site web de manière totalement graphique  sans utiliser de code et sans de connaissance en programmation</p></div>
+						</section>
+				</section>
+				<section>
+						<section>
+							<h2>Les avantages</h2>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/673422/images/3615998/thumb_1219bfe3da7795c8334cda597be82e80.jpg">
+						</section>
+						<section>
+								<ul>
+									<li><strong>Pas de licence payante pour utiliser un CMS open source</strong></li></br>
+									<li><strong>Simplicité de gestion et d’administration</strong></li></br>
+									<li><strong>Adaptation aux spécificités ou aux nouveaux besoins </strong></li></br>
+									<li><strong>Possibilité de travailler à plusieurs en même temps</strong></li></br>
+									<li><strong>Compatibilité avec les navigateurs et surtout avec les supports mobiles</strong></li></br>
+								</ul>
+						</section>
+					</section>
+					<section>
+						<section>
+							<h2>Les inconvénients</h2>
+							<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/673422/images/3615961/thumb_VB.jpg">
+						</section>
+							<section>
+								<ul>
+									<li><strong>Former les différentes personnes qui interviendront sur le site</strong></li></br>
+									<li><strong>Vérifier que la maintenance technique du site sera assurée</strong></li></br>
+								</ul>
+							</section>
+					</section>
+					<section>
+						<section>
+							<h2>Différents types de CMS</h2>
+						</section>
+						<section>
+							<h2>Wordpress</h2></br>
+							<img src="https://scr.sad.supinfo.com/articles/resources/207914/280/1.png"></br>
+							<p>Outil permettant de créer et gérer un site web</p>
+						</section>
+						<section>
+							<h2>Prestashop</h2>
+							<img src="https://scr.sad.supinfo.com/articles/resources/207914/280/4.png">
+							<p>Outil permettant de créer une boutique en ligne</p>
+						</section>
+					</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
